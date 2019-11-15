@@ -1,15 +1,12 @@
-Applicative Functor <: Selective Functor <: Monad
-===================================================
+Functor ⊂ Applicative Functor ⊂ Selective Functor ⊂ Monad
+=========================================================
 
-I am going to give a very short introduction to "Selective Applicative Functors".
+This is code I wrote for a short lightning talk about "Selective Applicative
+Functors" at Scala Matsuri 2019. It contains a sketch of part of the functor
+hierachy including the new *selective applicative functor* interface described
+in the following paper:
 
-> *Selective Applicative Functors*
->
-> Andrey MOKHOV (Newcastle University)
->
-> Georgy LUKYANOV (Newcastle University)
->
-> Simon MARLOW (Facebook)
->
-> Jeremie DIMINO (Jane Street)
+> Andrey Mokhov, Georgy Lukyanov, Simon Marlow, and Jeremie Dimino. 2019.
+> Selective applicative functors. Proc. ACM Program. Lang. 3, ICFP,
+> Article 90 (July 2019), 29 pages. DOI: https://doi.org/10.1145/3341694
 

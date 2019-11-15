@@ -2,7 +2,7 @@ package example
 
 import fp._
 
-/** The "over-estimate" functor
+/** The "over-estimate" selective functor
  *
  * Like [[Const]]: Over[T,A] contains a T describing an effect. The instances below will RUN
  * every effect we can. This over-estimates all possible effects that can happen in a program.
